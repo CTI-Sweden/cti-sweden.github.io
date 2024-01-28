@@ -1,0 +1,7 @@
+baseURL = 'https://ctisweden.se/'
+languageCode = 'en-us'
+title = 'CTI Sweden'
+
+[module]
+    [[module.imports]]
+        path = "github.com/CTI-Sweden/Simple-CTI"
