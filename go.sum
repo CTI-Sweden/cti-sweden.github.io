@@ -4,3 +4,9 @@ github.com/CTI-Sweden/Simple-CTI v0.0.0-20240128110743-6b97c372352d h1:RIPN6ln2b
 github.com/CTI-Sweden/Simple-CTI v0.0.0-20240128110743-6b97c372352d/go.mod h1:M8dDDnbkx3NwGV7aLCKPjXRjSgogptYct99fcvfy+wk=
 github.com/CTI-Sweden/Simple-CTI v0.0.0-20240128212820-a2e070d11726 h1:SgXsnxBA8cM0KymcB4G5l4Grp4oVmZzqpFOkwsi7k5I=
 github.com/CTI-Sweden/Simple-CTI v0.0.0-20240128212820-a2e070d11726/go.mod h1:M8dDDnbkx3NwGV7aLCKPjXRjSgogptYct99fcvfy+wk=
+github.com/CTI-Sweden/Simple-CTI v0.0.0-20240129235704-508d212eb656 h1:Agqqs6l3+YxVDR74t/Qc9pS6BGr+hTYczQLPidaRQyY=
+github.com/CTI-Sweden/Simple-CTI v0.0.0-20240129235704-508d212eb656/go.mod h1:M8dDDnbkx3NwGV7aLCKPjXRjSgogptYct99fcvfy+wk=
+github.com/CTI-Sweden/Simple-CTI v0.0.1 h1:AsPU5N4xTDedc8ZlFrwdJj6jPQtvogSxbuqEUS7fdis=
+github.com/CTI-Sweden/Simple-CTI v0.0.1/go.mod h1:M8dDDnbkx3NwGV7aLCKPjXRjSgogptYct99fcvfy+wk=
+github.com/CTI-Sweden/Simple-CTI v0.0.2 h1:F3IoiUADwHUct7huIpYseel1HZme2jRHmJt1QfdYVpo=
+github.com/CTI-Sweden/Simple-CTI v0.0.2/go.mod h1:M8dDDnbkx3NwGV7aLCKPjXRjSgogptYct99fcvfy+wk=
