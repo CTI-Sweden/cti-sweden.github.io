@@ -1,7 +1,16 @@
 baseURL = 'https://ctisweden.se/'
 languageCode = 'en-us'
 title = 'CTI Sweden'
+enableGitInfo = true
 
 [module]
-    [[module.imports]]
-        path = "github.com/CTI-Sweden/Simple-CTI"
+[[module.imports]]
+path = "github.com/CTI-Sweden/Simple-CTI"
+
+[taxonomies]
+category = "categories"
+country = "countries"
+tag = "tags"
+sector = "sectors"
+tactic = "tactics"
+technique = "techniques"
