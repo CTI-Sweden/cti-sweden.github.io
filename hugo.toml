@@ -2,6 +2,7 @@ baseURL = 'https://ctisweden.se/'
 languageCode = 'en-us'
 title = 'CTI Sweden'
 enableGitInfo = true
+enableEmoji = true
 
 [module]
 [[module.imports]]
