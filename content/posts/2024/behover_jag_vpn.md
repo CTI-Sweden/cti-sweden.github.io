@@ -19,7 +19,7 @@ tags = [
 title = "Netflix support - You seem to be using a VPN or proxy"
 link = "https://help.netflix.com/en/node/277"
 [[sources]]
-title = PTS - Information om användarne och deras kommunikation
+title = "PTS - Information om användarne och deras kommunikation"
 link = "https://pts.se/globalassets/startpage/dokument/icke-legala-dokument/rapporter/2018/post/pts-er-2018_6-information-om-anvandarna-och-deras-kommunikation.pdf"
 +++
 
@@ -132,6 +132,8 @@ VPN leverantörer har inga krav på sig att rapportera hur deras miljö ser ut o
 fungerar. Detta innebär att det inte finns något sätt för dig att kontrollera
 vissa av de påståenden de gör om sin miljö. En granskning av en trejdepart kan h
 
+### 
+
 ## Leverantörer
 
 ### Mullvad
@@ -148,31 +150,60 @@ sin [hemsida](https://mullvad.net/en/blog/tag/audits). Sedan September 2023 kör
 hela deras infrastruktur endast på
 [RAM utan permanent lagring](https://mullvad.net/sv/blog/we-have-successfully-completed-our-migration-to-ram-only-vpn-infrastructure).
 
-Mullvad agerar också leverantörspartner för ett par andra VPN tjänster:
+Mullvad agerar också [leverantörspartner](https://mullvad.net/en/help/partnerships-and-resellers) för ett par andra VPN tjänster:
 
-- [Mozilla VPN](https://www.mozilla.org/en-US/privacy/subscription-services/)
-- Malwarebytes
-- Tailscale
+- [Mozilla VPN](https://www.mozilla.org/en-US/products/vpn)
+- [Malwarebytes Privacy VPN](https://www.malwarebytes.com/vpn)
+- [Tailscale](https://tailscale.com/) (Provides optional WireGuard exit nodes)
 
 ### Pango Group
 
-- OVPN
--
+Jag fann Pango Group då jag upptäckte att de hade förvärvat OVPN vilket är en leverantör jag håller i hög beaktning. Detta gjorde mig lite orolig då den här typen av konsolidering ofta leder till en sämre kvalitè i jakt på vinst. OVPN däremot skriver själva att de kommer agera precis som tidigare.
+
+> OVPN kommer fortsätta att drivas som en fristående tjänst. Dina kunduppgifter som beskrivet i vår integritetspolicy lagras fortfarande på infrastruktur som drivs av OVPN, och vår VPN-infrastruktur kommer att fortsätta hålla samma höga säkerhetsstandard vi alltid har använt.
+>
+> David Wibergh, 2024-02-03, https://www.ovpn.com/sv/blog/nasta-kapitel-for-ovpn
+
+För den här sektionen tänker jag fokusera på OVPN då den, mer än någon annan av deras VPN tjänster, ser ut som det självklara valet för den Svenska marknaden.
+
+OVPN, precis som Mullvad, faller under Svensk lagstiftning. De har länge fokuserat på att ha en infrastruktur med total avsaknad av lagring vilket betyder att de loggar minimalt med information om sina användare. OVPN har sedan 2014 publicerat [transperans rapporter](https://www.ovpn.com/sv/transparency). De har också lyckats bestrida ett [informationsföreläggande](https://www.ovpn.com/sv/blog/ovpn-vinner-informationsforelaggande) i domstol. I skrivande stund kan jag inte hitta några externa prövningar av deras infrasturktur men enligt OVPN bevisar föregående domstolsbeslut att de är loggfria.
+
+- [OVPN](https://www.ovpn.com/)
+- [UltraVPN](https://ultravpn.com/)
+- [VPN360](https://www.vpn360.com/)
+- [Betternet](https://www.betternet.co/)
 
 ### Kape Technologies
 
 <https://en.wikipedia.org/wiki/Teddy_Sagi#Kape_Technologies_plc>
 
 Kape Technologies är ägarna bakom flera av de VPN tjänster som går hårdast ut
-med marknadsföringskampanjer
+med marknadsföringskampanjer. 
 
-- PIA
-- ExpressVPN
-- CyberGhost VPN
-- ZenMate VPN
+- [PIA](https://www.privateinternetaccess.com/)
+- [ExpressVPN](https://www.expressvpn.com/)
+- [CyberGhost VPN](https://www.cyberghostvpn.com/)
+- [ZenMate VPN](https://zenmate.com/)
 
 ### Nord Security
 
-- NordVPN
-- AtlasVPN
-- Surfshark (Merger ongoing?)
+En till paraply-aktör som äger flera tjänster. Också den här väldigt flitig med marknadsföringskampanjer. De har nyligen slagit samman med SurfShark vilket 
+
+- [NordVPN](https://nordvpn.com/)
+- [AtlasVPN](https://atlasvpn.com/)
+- [SurfShark](https://surfshark.com/vpn/) (Merger ongoing?)
+
+### Integrity VPN
+
+Drivs av [Femte Juli Stiftelsen](https://femtejuli.se/) och erbjuder VPN genom andra internetleverantörer. De har ett unikt tilvägagångssätt där man inte kan bli kund direkt hos dem utan man måste bli kund via en internetleverantör som sammarbetar med dem. Detta gör att de inte vet vem du är, bara vilken data du skickar via dem. Det är inte bättre än att posta pengar till Mullvad då man kan gå till internetleverantören och matcha användarnamn till person men det är mycket svårare än om man är kund via swish, paypal eller kreditkort. De har inte en lika strikt no logging policy som vissa andra aktörer men de påstår sig ha väldigt lite loggar och att de tas bort efter sessionen avslutas. Denna aktör är ett bra alternativ om man har [Bahnhof](https://bahnhof.se/) som internetleverantör.
+
+# Proton VPN
+
+En Schweizisk aktör som startade med att erbjuda integritetsfokuserad mail. De faller alltså in under Scheweizisk lagstiftning och de har ett bra [blogg-inlägg](https://proton.me/blog/switzerland) där de förklarar varför de ser det som en positiv sak. De publicerar [transparency rapporter](https://proton.me/legal/transparency).
+
+No logs
+
+Political neutrality
+
+Adblock
+
