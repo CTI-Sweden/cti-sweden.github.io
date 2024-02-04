@@ -35,11 +35,11 @@ Varenda tillgång som har en uppkoppling har alltså ett värde, och detta värd
 >
 > 53.35 million US citizens were affected by cyber crime in the first half of 2022.
 >
-> -- AAG-IT 2024 Cyber Crime Statistics
+> (AAG-IT 2024)
 
 Även om ovan statistik är tagen från data gällande Amerika, så visar den på att privatpersoner ej går säkra från cyberattacker.
 
-## Sättet som din exponerade tillgång kan utnyttjas på är flertaligt, men de vanligaste följer nedan
+Sättet som din exponerade tillgång kan utnyttjas på är flertaligt, men de vanligaste följer nedan
 
 ### Botnet
 Din tillgång blir vad som kallas för en **zombie**, en slav i aktörens namn som är redo att göra i princip vad som helst, vanligast är att din tillgång ger kraft och är delaktig i DDoS attacker, även om du själv inte märker av detta så får den okända aktören mer kraft bakom sig i sina attacker riktade mot att ta ner hemsidor, applikationer, i vissa fall privatpersoners nätverk men även till att knäcka lösenord på andra människors konton.
@@ -80,7 +80,7 @@ I scenariot där en swish efterfrågas så är det inte alltid säkert att den m
 >
 > Han skrev väldigt stressat att hans egen bank låg nere och att han behövde min hjälp. Så jag swishade ”försäljaren” 5 500 kronor.
 >
-> -- Sandra Breman till Aftonbladet.
+> (Aftonbladet 2024).
 
 Sandra blev kontaktad av vad hon trodde sig vara sin bästa kompis, i själva verket var kompisens Snapchat konto kapat och Sandra föll offer för detta bedrägeri. 
 
@@ -122,7 +122,7 @@ Den här typen av attackvektor är nog den som dom allra flesta har hört talas 
 
 > Jag blev uppringd av en man som sade sig vara säkerhetschef på Elgiganten. Han sade att någon tagit ut tre telefoner som skulle faktureras mig.
 >
-> -- Barbro, 80 år, till Aftonbladet efter att ha fallit offet för Vishing.
+> (Aftonbladet 2023).
 
 Den vanligaste varianten av phishing sker via E-mail, där kan premissen variera från allt mellan att ditt lösenord har löpt ut på Facebook till att du måste skynda dig att logga in på Amazon för att avbryta en beställning.
 Det är viktigt att veta den här typen av attack blir mer sofistikerad för varje dag, med hjälp av t.ex. AI så kan en aktör skapa trovärdigare innehåll än vad som tidigare setts.
@@ -130,7 +130,7 @@ Med den teknik som finns tillgänlig så kan den som lägger ned nog mycket tid 
 
 > The most common cyber threat facing businesses and individuals is phishing. 
 >
-> -- AAG-IT 2024 Cyber Crime Statistics
+> (AAG-IT 2024)
 
 ## Hur försvarar man sig mot detta?
 Att försvara sig kan göras till en lång diskussion, beroende på hur mycket tid och pengar man vill lägga, men nedan listar jag allmänna tips som man kan följa för att löpa mindre risk att falla offer för cyberkriminella.
